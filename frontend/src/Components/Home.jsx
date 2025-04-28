@@ -32,12 +32,10 @@ function Home() {
       <Navbar page={"home"} />
       <div>
         <section id="home">
-          <h2>Enhance your future with EduVerse Academy</h2>
+          <h2>Enhance your future with BrightScholars Academy</h2>
           <p>
             {" "}
-            OneYes Academy is a massive open online course provider, and its
-            learning experience arranges coursework into a series of modules and
-            lessons that can include videos, text notes, and assessment tests.
+            BrightScholars learning Academy is a dynamic online learning platform that structures its courses into well-organized modules and lessons. Each module blends engaging video lectures, insightful text notes, and interactive assessments to create a comprehensive and immersive learning experience.
           </p>
           <div className="btn">
             <a className="blue" href="#">
@@ -92,7 +90,7 @@ function Home() {
                   <p>(239)</p>
                 </div>
               </div>
-              <div className="cost">$49.99</div>
+              <div className="cost">$50.00</div>
             </div>
             <div className="courses">
               <img src={c2} alt="" />
@@ -120,7 +118,7 @@ function Home() {
                   <p>(239)</p>
                 </div>
               </div>
-              <div className="cost">$49.99</div>
+              <div className="cost">$48.99</div>
             </div>
             <div className="courses">
               <img src={c4} alt="" />
@@ -148,7 +146,7 @@ function Home() {
                   <p>(239)</p>
                 </div>
               </div>
-              <div className="cost">$49.99</div>
+              <div className="cost">$50.99</div>
             </div>
             <div className="courses">
               <img src={c6} alt="" />

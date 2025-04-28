@@ -56,9 +56,9 @@ const Feedback = (props) => {
           style={{
             marginTop: "5px",
             padding: "5px",
-            backgroundColor: "darkviolet",
+            backgroundColor: "#FDFD96",
             borderRadius: "5px",
-            color: "white",
+            color: "black",
           }}
         >
           Submit

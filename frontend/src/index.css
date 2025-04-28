@@ -17,7 +17,7 @@ code {
 }
 
 .auth {
-  background-image: url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-work-desktop-with-notebook-keyboard_23-2148397831.jpg?t=st=1745567249~exp=1745570849~hmac=040a5a2c7462debf8a9bc4cd3c4bd68a8b4e70014e9a6f07e531e84154883075&w=1380");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -27,7 +27,7 @@ code {
 }
 
 .registration-auth {
-  background-image: url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-work-desktop-with-notebook-keyboard_23-2148397831.jpg?t=st=1745567249~exp=1745570849~hmac=040a5a2c7462debf8a9bc4cd3c4bd68a8b4e70014e9a6f07e531e84154883075&w=1380");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -61,8 +61,14 @@ h2 {
   font-size: 30px;
   margin-bottom: 20px;
   text-align: center;
+  color:white;
 }
-
+h3{
+  color: white; 
+}
+.email-label{
+  color:white;
+}
 .form-group {
   margin-bottom: 20px;
 }
@@ -173,7 +179,7 @@ span a:hover {
   padding-top: 40px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #ffffff96;
+  background-color: rgba(173, 216, 230, 0.6);
   backdrop-filter: blur(5px);
   font-family: "Montserrat", sans-serif;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -326,7 +332,7 @@ span a:hover {
   width: calc(22%);
   box-sizing: border-box;
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #4a5568;
   box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.74);
 }
 .learn-course-card {
@@ -341,7 +347,7 @@ span a:hover {
   width: calc(46%);
   box-sizing: border-box;
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #EFE9E7;
   box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.74);
 }
 
@@ -370,6 +376,7 @@ span a:hover {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 10px 0;
+  color:black;
 }
 
 .course-description {
@@ -379,8 +386,8 @@ span a:hover {
 
 .enroll-button {
   margin-top: 8px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0056b3; /* darker, more elegant blue */
+  color: #ffffff;
   padding: 7px 12px;
   border: none;
   border-radius: 5px;
@@ -434,6 +441,7 @@ span a:hover {
     font-size: 0.8rem;
     font-weight: bold;
     margin: 10px 0;
+    color:black;
   }
   .course-description {
     font-size: 14px;
@@ -476,9 +484,10 @@ span a:hover {
   border-radius: 5px;
   text-align: center;
   margin: 0 auto;
-  background-color: #f7f7f7;
+  background-color: #1F2041;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
   transition: box-shadow 0.3s, transform 0.3s;
+  color: white;
 }
 
 .profile-card:hover {
@@ -509,6 +518,7 @@ span a:hover {
   font-size: 24px;
   margin: 3px 0;
   transition: color 0.3s;
+  
 }
 
 .profile-card:hover .profile-name {
@@ -521,8 +531,10 @@ span a:hover {
 .profile-gender {
   font-size: 16px;
   margin: 2px 0;
-  color: #555;
+  color: #7ae3f1;
   transition: color 0.3s;
+  margin-left: 8px; /* Adjust space as needed */
+  font-weight: normal; /* Optional for better contrast with h4 */
 }
 
 .profile-card:hover .profile-email,
@@ -766,7 +778,7 @@ img {
 }
 
 .add {
-  background-image: url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-work-desktop-with-notebook-keyboard_23-2148397831.jpg?t=st=1745567249~exp=1745570849~hmac=040a5a2c7462debf8a9bc4cd3c4bd68a8b4e70014e9a6f07e531e84154883075&w=1380");
 
   align-items: center;
 
@@ -777,6 +789,7 @@ img {
   display: flex;
   justify-content: center;
   padding: 2%;
+  color:white;
 }
 
 .container1 {
@@ -857,7 +870,7 @@ button[type="submit"]:hover {
 
 /* Style for the container */
 .assessment-container {
-  background-color: #ffffff;
+  background-color: #ffff;
   padding: 20px;
   font-family: Arial, sans-serif;
 }
@@ -1121,7 +1134,7 @@ input[type="radio"] {
 
 .section-title {
   font-size: 18px;
-  color: #3498db;
+  color: #1F2041;
   margin-bottom: 8px;
 }
 
@@ -1142,21 +1155,23 @@ input[type="radio"] {
   padding-top: 10px;
   margin-top: 10px;
   height: 30vh;
-  background-color: rgb(0, 0, 105);
+  background-color: #1F2041;
   color: white;
 }
 
 .get-input {
   margin-left: 10%;
   width: 40%;
-  background-color: #0056b3;
+  background-color: #afaaa8;
   padding: 1px 20px 20px 20px;
   border-radius: 10px;
+  color:black;
   box-shadow: 0px 0px 1px 2px #ffffff86;
 }
 
 .feedback-list {
-  background-color: #0056b3;
+  background-color: #afaaa8;
+  color:black;
   padding: 1px 20px 20px 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 1px 2px #ffffff86;

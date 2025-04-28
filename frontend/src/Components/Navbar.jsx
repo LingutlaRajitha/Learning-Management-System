@@ -52,8 +52,8 @@ function Navbar(props) {
               </li>
             )}
             {value === "home" ? (
-              <li style={{ backgroundColor: "purple", borderRadius: "5px" }}>
-                <Link to={"/"} style={{ color: "white", padding: "10px" }}>
+              <li style={{ backgroundColor: "#D4AF37", borderRadius: "5px" }}>
+                <Link to={"/"} style={{ color: "white", padding: "12px" }}>
                   Home
                 </Link>
               </li>
@@ -63,10 +63,10 @@ function Navbar(props) {
               </li>
             )}
             {value === "courses" ? (
-              <li style={{ backgroundColor: "purple", borderRadius: "5px" }}>
+              <li style={{ backgroundColor: "#D4AF37", borderRadius: "5px" }}>
                 <Link
                   to={"/courses"}
-                  style={{ color: "white", padding: "10px" }}
+                  style={{ color: "white", padding: "12px" }}
                 >
                   Courses
                 </Link>
@@ -78,7 +78,7 @@ function Navbar(props) {
             )}
             {authToken ? (
               value === "profile" ? (
-                <li style={{ backgroundColor: "purple", borderRadius: "5px" }}>
+                <li style={{ backgroundColor: "#D4AF37", borderRadius: "5px" }}>
                   <Link
                     to={"/profile"}
                     style={{ color: "white", padding: "10px" }}
@@ -100,7 +100,7 @@ function Navbar(props) {
             )}
             {authToken ? (
               value === "learnings" ? (
-                <li style={{ backgroundColor: "purple", borderRadius: "5px" }}>
+                <li style={{ backgroundColor: "#D4AF37", borderRadius: "5px" }}>
                   <Link
                     to={"/learnings"}
                     style={{ color: "white", padding: "10px" }}

@@ -63,7 +63,7 @@ function Profile() {
         <ImgUpload onChange={handleImageChange} src={profileImage} />
         <h2 className="profile-name">{userDetails?.username}</h2>
         <div style={{ marginTop: '20px' }}>
-          <h4>Email: </h4>
+          <h4>Email:   </h4>
           <p className="profile-email">{userDetails?.email}</p>
         </div>
         <div>

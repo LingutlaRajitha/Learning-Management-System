@@ -60,7 +60,7 @@ function Login() {
           <h2>Login</h2>
           <br />
           <form autoComplete="off" className="form-group" onSubmit={login}>
-            <label htmlFor="email">Email Id :</label>
+            <label htmlFor="email" class="email-label">Email Id :</label>
             <input
               type="email"
               className="form-control"
@@ -69,7 +69,7 @@ function Login() {
               value={email}
             />
             <br />
-            <label htmlFor="password">Password : </label>
+            <label htmlFor="password" class="email-label">Password : </label>
             <input
               type="password"
               className="form-control"

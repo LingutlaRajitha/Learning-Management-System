@@ -16,7 +16,7 @@ function Dashboard() {
   },[])
 
   return (
-    <body style={{backgroundColor:"#eee"}}>
+    <body style={{backgroundColor:"#EFE9E7"}}>
       <SideBar current={"dashboard"}/>
       <section id="content">
         <Navbar />

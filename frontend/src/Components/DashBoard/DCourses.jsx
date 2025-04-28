@@ -75,7 +75,7 @@ function Courses() {
               <div className="order">
                 <div id="course" className="todo">
                   <div className="head" style={{ marginTop: "-100px" }}>
-                    <h3 style={{color:'white'}}>Courses</h3>
+                    <h3 style={{color:'Black'}}>Courses</h3>
                     <button
                       onClick={() => navigate("/addcourse")}
                       style={{
@@ -116,7 +116,7 @@ function Courses() {
                               
                             <button onClick={() => addquestions(course.course_id)}
                             style={{
-                              backgroundColor: "#457BC1",
+                              backgroundColor: "#FEF250",
                               borderRadius: "10px",
                               color: "white",
                               border: "none",
