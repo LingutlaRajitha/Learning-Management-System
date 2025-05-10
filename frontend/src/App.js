@@ -2,6 +2,9 @@ import './App.css';
 import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import Login from './Components/login';
 import Register from './Components/register';
+import TrainerLogin from "./Components/TrainerLogin"; // adjust path as needed
+import TrainerRegister from "./Components/TrainerRegistration";
+import TrainerCourses from "./Components/trainercourses";
 import Course from './Components/course';
 import Courses from './Components/Courses';
 import Profile from './Components/profile';
@@ -22,6 +25,7 @@ import Performance from './Components/DashBoard/Performance';
 import DTutors from './Components/DashBoard/DTutors';
 import certificate from './Components/certificate';
 import Forum from './Components/forum';
+import RegistrationForm from './Components/register';
 
 
 
@@ -34,6 +38,9 @@ function App() {
           <Route path='/dashboard' Component={Dashboard}></Route>
           <Route path='/login' Component={Login}></Route>
           <Route path='/register' Component={Register}></Route>
+          <Route path="/TrainerLogin" element={<TrainerLogin />} />
+          <Route path="/TrainerRegister" element={<RegistrationForm />} />
+          <Route path="/trainercourses" element={<TrainerCourses />} />
           <Route path='/' Component={Home}></Route>
           <Route path='/courses' Component={Courses}></Route>
           <Route path='/course/:id' Component={Course}></Route>

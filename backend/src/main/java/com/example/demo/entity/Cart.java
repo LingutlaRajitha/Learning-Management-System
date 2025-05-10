@@ -1,19 +1,26 @@
 package com.example.demo.entity;
+
 import jakarta.persistence.*;
 
 @Entity
 public class Cart {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+	@ManyToOne
+	@JoinColumn(name = "user_id")
+	private User user;
 
-    @ManyToOne
-    @JoinColumn(name = "course_id")
-    private Course course;
+	@ManyToOne
+	@JoinColumn(name = "trainer_id")
+	private trainer trainer;
+
+	@ManyToOne
+	@JoinColumn(name = "course_id")
+	private Course course;
+
+	// Getters and setters...
 
 	public Long getId() {
 		return id;
@@ -29,6 +36,14 @@ public class Cart {
 
 	public void setUser(User user) {
 		this.user = user;
+	}
+
+	public trainer getTrainer() {
+		return trainer;
+	}
+
+	public void setTrainer(trainer trainer) {
+		this.trainer = trainer;
 	}
 
 	public Course getCourse() {

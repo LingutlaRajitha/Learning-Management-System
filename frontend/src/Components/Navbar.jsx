@@ -28,6 +28,16 @@ function Navbar(props) {
     setIsMobileMenuOpen(false);
   };
 
+  const handleLoginSelect = (event) => {
+    const selectedRole = event.target.value;
+
+    if (selectedRole === "student") {
+      navigate("/login");  // or navigate to register: "/register/student"
+    } else if (selectedRole === "trainer") {
+      navigate("/TrainerLogin");  // or navigate to register: "/register/trainer"
+    }
+  };
+
   return (
     <div>
       <nav>
@@ -128,7 +138,15 @@ function Navbar(props) {
               </li>
             ) : (
               <li>
-                <button onClick={() => navigate("/login")}>Login/SignUp</button>
+              <select onChange={handleLoginSelect} defaultValue="">
+                  <option value="" disabled>
+                    Login/SignUp
+                  </option>
+                  <option value="student">Student</option>
+                  <option value="trainer">Trainer</option>
+                </select>
+                {/* <button onClick={() => navigate("/login")}>Login/SignUp</button> */}
+                  
               </li>
             )}
           </ul>

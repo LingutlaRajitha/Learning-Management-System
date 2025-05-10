@@ -17,7 +17,7 @@ code {
 }
 
 .auth {
-  background-image: url("https://img.freepik.com/free-photo/flat-lay-work-desktop-with-notebook-keyboard_23-2148397831.jpg?t=st=1745567249~exp=1745570849~hmac=040a5a2c7462debf8a9bc4cd3c4bd68a8b4e70014e9a6f07e531e84154883075&w=1380");
+  background-image: url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -27,7 +27,7 @@ code {
 }
 
 .registration-auth {
-  background-image: url("https://img.freepik.com/free-photo/flat-lay-work-desktop-with-notebook-keyboard_23-2148397831.jpg?t=st=1745567249~exp=1745570849~hmac=040a5a2c7462debf8a9bc4cd3c4bd68a8b4e70014e9a6f07e531e84154883075&w=1380");
+  background-image: url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -332,7 +332,7 @@ span a:hover {
   width: calc(22%);
   box-sizing: border-box;
   text-align: center;
-  background-color: #4a5568;
+  background-color: #cfd1d6;
   box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.74);
 }
 .learn-course-card {
@@ -778,7 +778,7 @@ img {
 }
 
 .add {
-  background-image: url("https://img.freepik.com/free-photo/flat-lay-work-desktop-with-notebook-keyboard_23-2148397831.jpg?t=st=1745567249~exp=1745570849~hmac=040a5a2c7462debf8a9bc4cd3c4bd68a8b4e70014e9a6f07e531e84154883075&w=1380");
+  background-image: url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
 
   align-items: center;
 

@@ -148,20 +148,21 @@ const Certificate = () => {
             maxWidth: "600px",
             margin: "50px auto",
             textAlign: "center",
-            border: "2px solid #3498db",
+            border: "7px solid #3498db",
             padding: "30px",
-            borderRadius: "15px",
+            borderStyle:"double"
+            // borderRadius: "15px",
           }}
         >
           <img
             src={img}
             alt="Logo"
             style={{
-              width: "100px",
-              height: "auto",
+              width: "153px",
+              height: "41px",
               marginBottom: "10px",
-              border: "2px solid #3498db",
-              borderRadius: "50%",
+              border: "1px solid rgb(13, 13, 138)",
+              borderRadius: "20%",
               padding: "5px",
             }}
           />
